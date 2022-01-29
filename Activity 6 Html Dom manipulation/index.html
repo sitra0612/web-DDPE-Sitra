@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+   <head>
+ <meta charset="utf-8">
+<meta name="Keywords" content="Self-Education, The True Believer, Eric Hoffe, Books to Read, Life Hacks">
+<meta name="Description" content="This website contains informations about Eric Hoffer and his book titled The True Beliver, New Podcast, and pick of the week video. As well as recent posts, most viewed articles and ip project winners.">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>LIFE HACKS</title>
+	  <style>
+
+		#page{
+			margin: 20px auto 20px auto;
+		
+			 border:5px dashed #001aff;
+		
+		}
+		
+		h1,h2,h3{
+			 padding:auto;
+			 color:red;
+		
+		}
+		#one{
+			 align-items:center;
+		}
+		</style>
+	  <script>
+	function removeDom(){
+  
+  const node3=document.getElementById("a");
+  const parent3=document.getElementById("aud");
+  parent3.removeChild(node3);
+ 
+  }
+
+
+    function swapDom(a,v){
+		
+{
+     var aParent = a.parentNode;
+     var vParent = v.parentNode;
+
+     var aHolder = document.createElement("div");
+     var vHolder = document.createElement("div");
+
+     aParent.replaceChild(aHolder,a);
+     vParent.replaceChild(vHolder,v);
+
+     aParent.replaceChild(v,aHolder);
+     vParent.replaceChild(a,vHolder);    
+}
+
+
+	}
+	function addDom(){
+        const addNode= document.createElement("li");
+	const addText= document.createTextNode(" JavaScript Development Projects Ideas");
+     addNode.appendChild(addText);
+    var parent1= document.getElementById("list");
+    parent1.appendChild(addNode);
+     
+	const addNode1= document.createElement("p");
+	const addText1= document.createTextNode(" What I’d like to share with you here is not the content of the book, though. Instead, I’d like to share with you about the author.You see, I didn’t know about Eric Hoffer before.");
+     addNode1.appendChild(addText1);
+    var parent2= document.getElementById("four");
+    parent2.appendChild(addNode1);
+
+	}
+	  </script>
+   </head>
+   
+   <body id="page">
+      <table  width="80%"  align="center"> 
+	     
+         <tr>
+		
+		    <td>
+		       <img src="../../resources/images/logo_gold.png" alt="LOGO" width="40" height="50">
+			 </td>
+			
+	         <td width="900" align="center"> 
+		        <a href="#"  alt="Podcasts" >Podcasts</a>
+	            <a href="#"  alt="Articles" >Articles</a>
+	            <a href="#"  alt="Ideas" >Ideas</a>
+	            <a href="Signin.html"  alt="Signin" >Signin</a>
+	            <a href="Register.html"  alt="Register" >Register</a>
+				
+	          </td> 
+			  
+        </tr>  
+      </table>
+	   
+	   
+	   <table width="80%"  cellspacing="0" align="center">
+	   <hr>
+		
+		   <tr>
+		      
+	         <td colspan="2" align="right" ><a href="#">Go TO Bottom</a></td> 
+              		 
+	       </tr>
+	     
+    		 <tr>
+			  
+		       <td><h2>Eric Hoffer and the Power of Self-Education</h2></td>
+		        <td><h3>Recent Posts</h3> </td>
+				 
+		    </tr>
+		
+	        <tr>
+			   
+		       <td id="four">  <p><img src="../../resources/images/banners/life1.jpg" alt="Sun set" width="500" height="200" /></p>
+		       <p>I recently read The True Believer by Eric Hoffer. It’s a book about how mass movements evolve. With a lot of historical examples, the book explains the patterns and common threads among them. It’s an insightful book and reading it was a great learning experience for me. </p>
+			   <p><img src="" alt="The True Believer book cover" />What I’d like to share with you here is not the content of the book, though. Instead, I’d like to share with you about the author. </p>
+			   <p>You see, I didn’t know about Eric Hoffer before. But I imagined he must be a famous professor from a well-known university. I mean, what else could explain the depth of his insights? The True Believer is an influential book. Here is how<a href=""> Wikipedia</a> put it...<a href=""> read more<a/></p>
+			     <hr>
+			  
+		       </td>
+			 
+		       <td>
+			   <ul>
+			       <li>Articles
+				     <ul id="list">
+				        <li>The Importance of Goals, Especially During Difficult Times </li>
+					    <li>5 Steps to Discovering Your Life Purpose In 2022! </li>
+				     </ul>
+				   </li>
+				</ul>
+               	<ul>			
+			      <li>Ideas
+			         <ul>
+				        <li>10 Books to Read in The Fall </li>
+					    <li>Top Web Development Projects Ideas </li>
+				      </ul>
+			      </li>
+			    </ul>
+			  
+			  <h3>Most Viewed Articls</h3>
+			  <ol  type="I">
+			     <li> Instant Gratification Is Stopping You From Reaching Your Goals! li> </li>
+				 <li> Stop Juggling Between Work And Life </li>
+			  </ol>
+			   <h3>IP Project Winners</h3>
+			 <pre> 
+			      
+----------------------
+Rank          Award
+-----------------------
+First        Free hosting and support
+Second       5GB Mobile Data 
+Third        1GB Mobile Data
+-----------------------
+			 
+			  </pre>
+			   </td>
+			   
+			
+		    </tr>
+	 
+	
+	     <tr>
+		    
+		     
+		     <td id="aud">
+				 <b >New Podcast</b> <br>
+		         <h2 >Jack Ma - How I Overcame Failure</h2>
+		         <audio id="a" src="../../resources/audio/Jack Ma - How I Overcame Failure.mp3"  controls > Sorry your browser doesn't support this audio </audio>
+			</td>
+				 
+		 </tr>
+		  
+		  <tr>
+		     
+		     <td id="vid"><hr><b>Pick of The Week </b><br>
+		         <h3>24 Hours A Day</h3>
+		         <video id="v" src="../../resources/video/24_HOURS.mp4"   controls width="600" id="video">Sorry your browser doesn't support this video</video>
+             </td>
+			 
+			 
+		  </tr>
+		 
+		 </table>
+		 
+		 <table  width="80%"  cellspacing="0" align="center">
+		   <hr>
+		    <tr>
+			   
+		        <td >Follow Us On:<a href="https://m.facebook.com/?_rdr"> Facebook </a>|<a href="https://mobile.twitter.com/login/"> Twitter</a></td>
+			    <td  align="right"><a href="#"> Privacy</a> | <a href="#">Terms of Use</a></td>
+				 
+		    </tr>
+		     <tr >
+			   
+			    <td align="center">Copyright © AASTU SEng 2021, All Rights Reserved</td>
+				<td id="one" align="right">
+				
+				  <button onclick= "swapDom(a,v)" > Sawp </button> 
+				  <button onclick= "addDom()"> Add element</button>
+				  <button onclick="removeDom()" > Remove element</button>
+		
+			   </td>
+			 </tr>
+       		
+	      </table>
+   </body>
+</html>
